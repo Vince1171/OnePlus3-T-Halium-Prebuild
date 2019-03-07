@@ -4,7 +4,7 @@
 
 just use the prebuild image just as  a normal compiled image.
 install it with the JBB's halium-install script [here](https://github.com/JBBgameich/halium-install)
-and get the ubports edge rootfs from [here](https://ci.ubports.com/job/xenial-edge-rootfs-armhf/lastSuccessfulBuild/artifact/out/ubports-touch.rootfs-xenial-edge-armhf.tar.gz)
+and get the ubports edge rootfs from [here](https://ci.ubports.com/job/xenial-rootfs-armhf/lastSuccessfulBuild/artifact/out/ubports-touch.rootfs-xenial-armhf.tar.gz)
 ```./halium-install -p ut ubports-touch.rootfs-xenial-edge-armhf.tar.gz system.img```
 ```sudo fastboot flash boot halium-boot.img```
 
