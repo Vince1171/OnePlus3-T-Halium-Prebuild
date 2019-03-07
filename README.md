@@ -1,4 +1,4 @@
-# OnePlus3-Halium-Prebuild
+# OnePlus3(T)-Halium-Prebuild
 
 ### For Ubuntu Touch
 
