@@ -33,3 +33,8 @@ dpkg -i pulseaudio-modules-droid-24_11.1.76+0~20190225000127.8~1.gbp826b96_armhf
 sed -i -e "s/load-module module-droid-discover voice_virtual_stream=true/load-module module-droid-card-24/" /etc/pulse/touch.pa
 
 ```
+
+For wifi:
+```
+echo sta > /sys/module/wlan/parameters/fwpath
+```
