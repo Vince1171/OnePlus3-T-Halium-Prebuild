@@ -38,3 +38,13 @@ For wifi:
 ```
 echo sta > /sys/module/wlan/parameters/fwpath
 ```
+
+# what works what don't work?
+  * [x] boot
+  * [x] graphics
+  * [ ] calls
+  * [x] sound
+  * [x] gps
+  * [x] wifi
+  * [ ] Bluetooth
+  * [ ] anbox binder integrated, but anbox not working
