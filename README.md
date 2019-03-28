@@ -1,5 +1,17 @@
 # OnePlus3(T)-Halium-Prebuild
 
+## what works what don't work?
+  * [x] boot
+  * [x] graphics
+  * [ ] calls
+  * [x] sound
+  * [x] gps
+  * [x] wifi
+  * [ ] Bluetooth
+  * [ ] Camera
+  * [ ] anbox binder integrated, but anbox not working
+
+
 ### For Ubuntu Touch
 
 just use the prebuild image just as  a normal compiled image.
@@ -38,14 +50,3 @@ For wifi:
 ```
 echo sta > /sys/module/wlan/parameters/fwpath
 ```
-
-# what works what don't work?
-  * [x] boot
-  * [x] graphics
-  * [ ] calls
-  * [x] sound
-  * [x] gps
-  * [x] wifi
-  * [ ] Bluetooth
-  * [ ] Camera
-  * [ ] anbox binder integrated, but anbox not working
