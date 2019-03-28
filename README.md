@@ -47,4 +47,5 @@ echo sta > /sys/module/wlan/parameters/fwpath
   * [x] gps
   * [x] wifi
   * [ ] Bluetooth
+  * [ ] Camera
   * [ ] anbox binder integrated, but anbox not working
