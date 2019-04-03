@@ -20,6 +20,9 @@ and get the ubports edge rootfs from [here](https://ci.ubports.com/job/xenial-ro
 ```./halium-install -p ut ubports-touch.rootfs-xenial-edge-armhf.tar.gz system.img```
 ```sudo fastboot flash boot halium-boot.img```
 
+then while in TWRP
+```adb shell 'touch /data/.writable_image; mkdir /a; mount /data/rootfs.img /a; echo manual | tee /a/etc/init/rsyslog.override;  touch /a/.writable_device_image; umount /a; sync'```
+
 
 some command are needed in order to get a working UT device (run as root).
 ```
