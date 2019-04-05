@@ -9,6 +9,7 @@
   * [x] wifi
   * [ ] Bluetooth
   * [ ] Camera
+  * [x] Rotation
   * [ ] anbox binder integrated, but anbox not working
 
 
