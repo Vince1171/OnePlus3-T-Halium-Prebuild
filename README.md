@@ -5,7 +5,7 @@
   * [x] graphics
   * [ ] calls
   * [x] sound
-  * [x] gps
+  * [ ] gps
   * [x] wifi
   * [ ] Bluetooth
   * [ ] Camera
