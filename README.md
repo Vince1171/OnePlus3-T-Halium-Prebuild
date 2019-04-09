@@ -4,13 +4,15 @@
   * [x] boot
   * [x] graphics
   * [ ] calls
+  * [x] 3/4G
+  * [x] SMS (in/ou)t
   * [x] sound
-  * [ ] gps
+  * [ ] gps (only the frontend)
   * [x] wifi
   * [ ] Bluetooth
   * [ ] Camera
-  * [x] Rotation
   * [ ] anbox binder integrated, but anbox not working
+  * [x] Rotation
 
 
 ### For Ubuntu Touch
