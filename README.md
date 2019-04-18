@@ -43,8 +43,9 @@ sed -i -e "s/load-module module-droid-discover voice_virtual_stream=true/load-mo
 ### how to compile
 
 follow http://docs.halium.org/en/latest/porting/first-steps.html
-and before sync the entire repo
-change halium/devices/manifests/oneplus_oneplus3.xml
+
+and before sync the entire repo,
+replace halium/devices/manifests/oneplus_oneplus3.xml
 by https://gist.github.com/Vince1171/e1aa5fda8dda213f909f71ef70de0792
 
 (I haven't pushed my work to the halium repo as it seems that I've break plasma mobile)
