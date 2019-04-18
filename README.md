@@ -38,3 +38,13 @@ dpkg -i pulseaudio-modules-droid-24_11.1.76+0~20190225000127.8~1.gbp826b96_armhf
 sed -i -e "s/load-module module-droid-discover voice_virtual_stream=true/load-module module-droid-card-24/" /etc/pulse/touch.pa
 
 ```
+
+
+### how to compile
+
+follow http://docs.halium.org/en/latest/porting/first-steps.html
+and before sync the entire repo
+change halium/devices/manifests/oneplus_oneplus3.xml
+by https://gist.github.com/Vince1171/e1aa5fda8dda213f909f71ef70de0792
+
+(I haven't pushed my work to the halium repo as it seems that I've break plasma mobile)
