@@ -5,7 +5,7 @@
   * [x] graphics
   * [ ] calls
   * [x] 3/4G
-  * [x] SMS (in/ou)t
+  * [x] SMS (in/out)
   * [x] sound
   * [ ] gps (only the frontend)
   * [x] wifi
