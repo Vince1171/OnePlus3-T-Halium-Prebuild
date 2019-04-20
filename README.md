@@ -17,6 +17,8 @@
 
 ### For Ubuntu Touch
 
+before the installation, you'll need to format your userdata and your cache partition to ext4. Be careful, it'll erase all your personal files (like pictures, etc...)
+
 just use the prebuild image just as  a normal compiled image.
 install it with the JBB's halium-install script [here](https://github.com/JBBgameich/halium-install)
 and get the ubports edge rootfs from [here](https://ci.ubports.com/job/xenial-rootfs-armhf/lastSuccessfulBuild/artifact/out/ubports-touch.rootfs-xenial-armhf.tar.gz)
