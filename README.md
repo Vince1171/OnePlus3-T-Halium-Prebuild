@@ -41,7 +41,7 @@ sed -i -e "s/load-module module-droid-discover voice_virtual_stream=true/load-mo
 
 ```
 
-## Anbox
+#### Anbox
 ```
 sudo apt update
 sudo apt install anbox-ubuntu-touch
