@@ -11,7 +11,7 @@
   * [x] wifi
   * [ ] Bluetooth
   * [ ] Camera
-  * [x] anbox binder integrated, but anbox not working
+  * [x] Anbox
   * [x] Rotation
 
 
