@@ -56,7 +56,7 @@ anbox-tool install
 
 follow http://docs.halium.org/en/latest/porting/first-steps.html
 
-and before sync the entire repo,
+and before ```setup oneplus3```,
 replace halium/devices/manifests/oneplus_oneplus3.xml
 by https://gist.github.com/Vince1171/e1aa5fda8dda213f909f71ef70de0792
 
