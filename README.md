@@ -48,6 +48,7 @@ reboot the phone and then
 ```
 anbox-tool install
 ```
+and finally, reboot your phone twice (why twice? no idea)
 
 
 ### how to compile
