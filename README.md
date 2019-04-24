@@ -50,6 +50,9 @@ anbox-tool install
 ```
 and finally, reboot your phone twice (why twice? no idea)
 
+### Known Issues
+Sometimes it'll not boot, the work-around is to go to twrp then reboot -> system.
+
 
 ### how to compile
 
