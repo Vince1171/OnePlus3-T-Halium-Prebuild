@@ -34,9 +34,7 @@ some command are needed in order to get a fully working UT device (run as root).
 chmod 666 /dev/kgsl-3d0
 adduser --force-badname --system --home /nonexistent --no-create-home --quiet _apt
 
-cd /tmp
-wget https://ci.ubports.com/job/pulseaudio-modules-droid/job/PR-1/8/artifact/pulseaudio-modules-droid-24_11.1.76+0~20190225000127.8~1.gbp826b96_armhf.deb --no-check-certificate
-dpkg -i pulseaudio-modules-droid-24_11.1.76+0~20190225000127.8~1.gbp826b96_armhf.deb
+sudo apt install pulseaudio-modules-droid-24
 ```
 
 #### Anbox
