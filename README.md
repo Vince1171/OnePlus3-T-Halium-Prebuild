@@ -62,3 +62,31 @@ replace halium/devices/manifests/oneplus_oneplus3.xml
 by https://gist.github.com/Vince1171/e1aa5fda8dda213f909f71ef70de0792
 
 (I haven't pushed my work to the halium repo as it seems that I've break plasma mobile)
+
+```
+cd halium/libhybris/ && git remote add ubports https://github.com/ubports/libhybris.git && git fetch ubports && git checkout ubports/hybris-compat-layer-fixes
+cd halium/ && git clone https://github.com/ubports/platform-api.git && cd platform-api && git checkout xenial
+```
+
+in ```build/core/main.mk```
+change
+```
+# Specific projects for Halium
+subdirs += \
+        halium/hybris-boot \
+        halium/droidmedia \
+        halium/halium-boot
+```
+into
+```
+# Specific projects for Halium
+subdirs += \
+    halium/hybris-boot \
+    external/droidmedia \
+    halium/halium-boot \
+    external/audioflingerglue \
+    halium/platform-api \
+    halium/libhybris
+```
+finally go to ```external``` directory
+```git clone https://github.com/mer-hybris/audioflingerglue.git```
