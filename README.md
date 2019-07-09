@@ -90,3 +90,5 @@ subdirs += \
 ```
 finally go to ```external``` directory
 ```git clone https://github.com/mer-hybris/audioflingerglue.git```
+
+```source build/envsetup.sh && breakfast halium_oneplus3-userdebug && mka halium-boot systemimage hybris-boot```
