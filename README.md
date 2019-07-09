@@ -42,9 +42,9 @@ sudo apt install pulseaudio-modules-droid-24
 sudo apt update
 sudo apt install anbox-ubuntu-touch
 ```
-reboot the phone and then
+reboot the phone and then (as there is a permission issue with anbox-tool, you'll need to use this command)
 ```
-anbox-tool install
+sudo python3 /system/halium/usr/bin/anbox-tool install
 ```
 and finally, reboot your phone twice (why twice? no idea)
 
