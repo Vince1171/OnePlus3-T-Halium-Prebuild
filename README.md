@@ -68,27 +68,4 @@ cd halium/libhybris/ && git remote add ubports https://github.com/ubports/libhyb
 cd halium/ && git clone https://github.com/ubports/platform-api.git && cd platform-api && git checkout xenial
 ```
 
-in ```build/core/main.mk```
-change
-```
-# Specific projects for Halium
-subdirs += \
-        halium/hybris-boot \
-        halium/droidmedia \
-        halium/halium-boot
-```
-into
-```
-# Specific projects for Halium
-subdirs += \
-    halium/hybris-boot \
-    external/droidmedia \
-    halium/halium-boot \
-    external/audioflingerglue \
-    halium/platform-api \
-    halium/libhybris
-```
-finally go to ```external``` directory
-```git clone https://github.com/mer-hybris/audioflingerglue.git```
-
 ```source build/envsetup.sh && breakfast halium_oneplus3-userdebug && mka halium-boot systemimage hybris-boot```
