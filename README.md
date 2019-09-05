@@ -16,6 +16,7 @@
 
 
 ### For Ubuntu Touch
+#### On Linux 
 
 before the installation, you'll need to format your userdata and your cache partition to ext4. Be careful, it'll erase all your personal files (like pictures, etc...)
 
@@ -36,6 +37,19 @@ adduser --force-badname --system --home /nonexistent --no-create-home --quiet _a
 
 sudo apt install pulseaudio-modules-droid-24
 ```
+
+#### On Windows
+you'll need adb and fastboot on Windows and TWRP on your device (search on Google how to install it).  
+Before the installation, you'll need to format your userdata and your cache partition to ext4. Be careful, it'll erase all your personal files (like pictures, etc...).
+
+```fastboot flash boot halium-boot.img```  
+then while in TWRP  
+```
+adb push rootfs.img /data/  
+adb push system.img /data/  
+```  
+NOTE: the password with pregenerated rootfs.img is "aze"
+
 
 #### Anbox
 ```
