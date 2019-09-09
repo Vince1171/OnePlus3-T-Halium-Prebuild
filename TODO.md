@@ -14,7 +14,7 @@
 * no apparmor (app still crash even after patch apparmor)
 * ~boot takes 60+ seconds randomly~ fixed in v0.7
 * ~not all sensors are working/detected~ fixed in v0.7
-* media-hub doesn't work
+* Content-hub doesn't work
 
 
 any help with those issues would be appreciated
