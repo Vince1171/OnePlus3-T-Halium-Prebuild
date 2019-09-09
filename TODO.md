@@ -1,8 +1,8 @@
-### This list all bugs/issues currently on the port
+### This lists all bugs/issues currently found on the port
 
 * ~rotation randomly stop working~ fixed in v0.7
 * wifi sometimes take time to start/don't start at all (sill occure 20% on first boot, 1% after)
-* ~no calls~ fixed in v0.8 (hopefully)
+* ~no calls~ fixed in v0.8, but still some sound issues
 * no camera (only rear camera works)
 * sound support isn't complete (no system sound)
 * no Bluetooth
