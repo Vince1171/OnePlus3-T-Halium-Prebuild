@@ -63,8 +63,6 @@ sudo python3 /system/halium/usr/bin/anbox-tool install
 and finally, reboot your phone twice (why twice? no idea)
 
 ### Known Issues
-* Sometimes it'll not boot (it provide only telnet), the work-around initialy was to go to twrp then reboot -> system. it seems to not work anymore
-* A little freeze (1-2 sec) occur when trying to wakeup the phone (already fixed but not yet published).
 * The phone heat a lot while using Anbox.
 
 ### how to compile
