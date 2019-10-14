@@ -3,16 +3,16 @@
 ## what works what don't work?
   * [x] boot
   * [x] graphics
-  * [ ] calls
+  * [x] calls
   * [x] 3/4G
   * [x] SMS (in/out)
   * [x] sound
-  * [ ] gps (only the frontend)
+  * [x] gps (only on arm64)
   * [x] wifi
   * [ ] Bluetooth
-  * [ ] Camera
+  * [x] Camera (camera works, but unable to take picture for now)
   * [x] Anbox
-  * [x] Rotation
+  * [x] Sensors
 
 
 ### For Ubuntu Touch
@@ -22,21 +22,13 @@ before the installation, you'll need to format your userdata and your cache part
 
 just use the prebuild image just as  a normal compiled image.
 install it with the JBB's halium-install script [here](https://github.com/JBBgameich/halium-install)
-and get the ubports rootfs from [here](https://ci.ubports.com/job/xenial-rootfs-armhf/lastSuccessfulBuild/artifact/out/ubports-touch.rootfs-xenial-armhf.tar.gz)
-```./halium-install -p ut ubports-touch.rootfs-xenial-armhf.tar.gz system.img```
+and get a ubports rootfs [Devel](https://ci.ubports.com/job/xenial-rootfs-armhf/lastSuccessfulBuild/artifact/out/ubports-touch.rootfs-xenial-armhf.tar.gz) or [Edge](https://ci.ubports.com/job/xenial-hybris-edge-rootfs-armhf/lastSuccessfulBuild/artifact/out/ubuntu-touch-hybris-xenial-edge-armhf-rootfs.tar.gz)
+```./halium-install -p ut the_rootfs_you_choose.tar.gz system.img```
 ```sudo fastboot flash boot halium-boot.img```
 
 then while in TWRP
 ```adb shell 'touch /data/.writable_image; mkdir /a; mount /data/rootfs.img /a; echo manual | tee /a/etc/init/rsyslog.override;  touch /a/.writable_device_image; umount /a; sync'```
 
-
-some command are needed in order to get a fully working UT device (run as root).
-```
-chmod 666 /dev/kgsl-3d0
-adduser --force-badname --system --home /nonexistent --no-create-home --quiet _apt
-
-sudo apt install pulseaudio-modules-droid-24
-```
 
 #### On Windows
 you'll need adb and fastboot on Windows and TWRP on your device (search on Google how to install it).  
