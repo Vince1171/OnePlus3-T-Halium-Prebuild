@@ -43,7 +43,7 @@ adb push system.img /data/
 NOTE: the password with pregenerated rootfs.img is "aze"
 
 
-#### Anbox
+## Anbox
 ```
 sudo apt update
 sudo apt install anbox-ubuntu-touch
